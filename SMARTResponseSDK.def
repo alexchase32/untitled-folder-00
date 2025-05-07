@@ -1,0 +1,19 @@
+LIBRARY SMARTResponseSDK
+EXPORTS
+    _sr_class_addstudent@8
+    _sr_class_create@12
+    _sr_class_getStudentCount@4
+    _sr_class_release@4
+    _sr_class_removestudent@8
+    _sr_class_removestudentwithid@8
+    _sr_connection_get_current_mode@4
+    _sr_connection_get_number_signedin_students@4
+    _sr_connection_get_web_assessment_id@12
+    _sr_connection_listenonmodeswitched@12
+    _sr_connection_listenonmodeswitchfailed@12
+    _sr_connection_listenonvesignedin@12
+    _sr_connection_switch_mode@8
+    _sr_question_choicelabel@16
+    _sr_question_setchoicelabel@16
+    _sr_student_create@24
+    _sr_student_release@4

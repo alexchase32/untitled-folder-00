@@ -1,0 +1,128 @@
+Microsoft (R) COFF/PE Dumper Version 14.43.34810.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file SMARTResponseSDK.dll
+
+File Type: DLL
+
+  Section contains the following exports for SMARTResponseSDK.dll
+
+    00000000 characteristics
+    507E58DE time date stamp Wed Oct 17 02:06:06 2012
+        0.00 version
+           1 ordinal base
+         101 number of functions
+         101 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0001A950 _smartresponse_class_title@12
+          2    1 0001A8F0 _smartresponse_classroom_name@12
+          3    2 000011C0 _smartresponse_condition_create@0
+          4    3 000011E0 _smartresponse_condition_notify@4
+          5    4 000208C0 _smartresponse_condition_release@4
+          6    5 000011A0 _smartresponse_condition_wait@12
+          7    6 0001B130 _smartresponse_connectionV1_connect@4
+          8    7 0001B700 _smartresponse_connectionV1_copyerrorinfo@4
+          9    8 0001D200 _smartresponse_connectionV1_create@4
+         10    9 0001B160 _smartresponse_connectionV1_currentclass@4
+         11    A 0001B180 _smartresponse_connectionV1_currentquestion@4
+         12    B 0001B9E0 _smartresponse_connectionV1_currentquestionset@4
+         13    C 0001B7B0 _smartresponse_connectionV1_disconnect@4
+         14    D 0001B8E0 _smartresponse_connectionV1_endreviewmode@4
+         15    E 0001BA70 _smartresponse_connectionV1_isreceiverready@4
+         16    F 0001E9E0 _smartresponse_connectionV1_listenonclassfailtostart@12
+         17   10 0001ED60 _smartresponse_connectionV1_listenonclassfailtostop@12
+         18   11 0001E820 _smartresponse_connectionV1_listenonclassstarted@12
+         19   12 0001EBA0 _smartresponse_connectionV1_listenonclassstopped@12
+         20   13 0001D720 _smartresponse_connectionV1_listenonclickerconnected@12
+         21   14 0001D8F0 _smartresponse_connectionV1_listenonclickerdisconnected@12
+         22   15 0001DC90 _smartresponse_connectionV1_listenonclickerquestioncanceled@12
+         23   16 0001DAC0 _smartresponse_connectionV1_listenonclickerquestioned@12
+         24   17 0001DE70 _smartresponse_connectionV1_listenonclickerresponded@12
+         25   18 0001E050 _smartresponse_connectionV1_listenonclickersubmitted@12
+         26   19 0001E4A0 _smartresponse_connectionV1_listenonconnected@12
+         27   1A 0001E660 _smartresponse_connectionV1_listenonconnectiondidfail@12
+         28   1B 0001FB60 _smartresponse_connectionV1_listenondisconnected@12
+         29   1C 0001F0E0 _smartresponse_connectionV1_listenonquestionfailtostart@12
+         30   1D 0001F460 _smartresponse_connectionV1_listenonquestionfailtostop@12
+         31   1E 0001FEE0 _smartresponse_connectionV1_listenonquestionsetfailtostart@12
+         32   1F 00020260 _smartresponse_connectionV1_listenonquestionsetfailtostop@12
+         33   20 0001FD20 _smartresponse_connectionV1_listenonquestionsetstarted@12
+         34   21 000200A0 _smartresponse_connectionV1_listenonquestionsetstopped@12
+         35   22 0001EF20 _smartresponse_connectionV1_listenonquestionstarted@12
+         36   23 0001F2A0 _smartresponse_connectionV1_listenonquestionstopped@12
+         37   24 0001F620 _smartresponse_connectionV1_listenonreceiverpluggedin@12
+         38   25 0001F7E0 _smartresponse_connectionV1_listenonreceiverready@12
+         39   26 0001F9A0 _smartresponse_connectionV1_listenonreceiverunplugged@12
+         40   27 000208C0 _smartresponse_connectionV1_release@4
+         41   28 0001B5E0 _smartresponse_connectionV1_startclass@4
+         42   29 0001AE50 _smartresponse_connectionV1_startquestion@8
+         43   2A 0001AE90 _smartresponse_connectionV1_startquestionset@8
+         44   2B 0001D3E0 _smartresponse_connectionV1_stopclass@4
+         45   2C 0001AE70 _smartresponse_connectionV1_stopquestion@4
+         46   2D 0001B960 _smartresponse_connectionV1_stopquestionset@4
+         47   2E 0001B660 _smartresponse_connectionV2_startclass@8
+         48   2F 00020960 _smartresponse_errorinfoV1_fulldetails@12
+         49   30 000208C0 _smartresponse_errorinfoV1_release@4
+         50   31 000208E0 _smartresponse_errorinfoV1_statuscode@4
+         51   32 000208F0 _smartresponse_errorinfoV1_statustext@12
+         52   33 000209D0 _smartresponse_errorinfoV1_unsupportedquestions@12
+         53   34 00020AC0 _smartresponse_featuresV1_maxquestionsperquestionset@0
+         54   35 00020A80 _smartresponse_featuresV1_numericanswerlength@0
+         55   36 00020A40 _smartresponse_featuresV1_questionchoicenumber@8
+         56   37 00020A60 _smartresponse_featuresV1_questionselectionnumber@8
+         57   38 00020A20 _smartresponse_featuresV1_supported@4
+         58   39 00020A90 _smartresponse_featuresV1_textanswerlength@0
+         59   3A 00020AA0 _smartresponse_featuresV1_textanswervalid@8
+         60   3B 000208C0 _smartresponse_listener_release@4
+         61   3C 00020CF0 _smartresponse_questionV1_answer@12
+         62   3D 00020D60 _smartresponse_questionV1_choicecount@4
+         63   3E 00020D70 _smartresponse_questionV1_choicetext@16
+         64   3F 00020AD0 _smartresponse_questionV1_create@8
+         65   40 00020FA0 _smartresponse_questionV1_questionpoints@4
+         66   41 00020B10 _smartresponse_questionV1_questiontext@12
+         67   42 000208C0 _smartresponse_questionV1_release@4
+         68   43 00021250 _smartresponse_questionV1_setanswer@12
+         69   44 00020DF0 _smartresponse_questionV1_setchoicetext@16
+         70   45 00022540 _smartresponse_questionV1_setquestionpoints@12
+         71   46 00020B80 _smartresponse_questionV1_setquestiontext@12
+         72   47 00020B00 _smartresponse_questionV1_type@4
+         73   48 00022A20 _smartresponse_questionsetV1_create@0
+         74   49 00022AB0 _smartresponse_questionsetV1_name@12
+         75   4A 00022A40 _smartresponse_questionsetV1_points@4
+         76   4B 00022BB0 _smartresponse_questionsetV1_question@8
+         77   4C 00022BE0 _smartresponse_questionsetV1_questioncount@4
+         78   4D 00022B60 _smartresponse_questionsetV1_release@4
+         79   4E 00022B10 _smartresponse_questionsetV1_setname@12
+         80   4F 00022A50 _smartresponse_questionsetV1_setquestion@12
+         81   50 00001140 _smartresponse_sdk_initialize@4
+         82   51 000011F0 _smartresponse_sdk_stringlength@4
+         83   52 00001180 _smartresponse_sdk_terminate@0
+         84   53 0001A9B0 _smartresponse_set_classroom_name@12
+         85   54 0001AC30 _sr_class_addstudent@8
+         86   55 0001AD70 _sr_class_create@12
+         87   56 0001AA00 _sr_class_getStudentCount@4
+         88   57 000208C0 _sr_class_release@4
+         89   58 0001AB00 _sr_class_removestudent@8
+         90   59 0001AB90 _sr_class_removestudentwithid@8
+         91   5A 0001AEB0 _sr_connection_get_current_mode@4
+         92   5B 0001BB00 _sr_connection_get_number_signedin_students@4
+         93   5C 0001BB80 _sr_connection_get_web_assessment_id@12
+         94   5D 00020420 _sr_connection_listenonmodeswitched@12
+         95   5E 000205E0 _sr_connection_listenonmodeswitchfailed@12
+         96   5F 0001E220 _sr_connection_listenonvesignedin@12
+         97   60 000207A0 _sr_connection_switch_mode@8
+         98   61 00020FB0 _sr_question_choicelabel@16
+         99   62 00021030 _sr_question_setchoicelabel@16
+        100   63 0001AA10 _sr_student_create@24
+        101   64 000208C0 _sr_student_release@4
+
+  Summary
+
+        3000 .data
+       12000 .rdata
+        8000 .reloc
+        2000 .rsrc
+       30000 .text
